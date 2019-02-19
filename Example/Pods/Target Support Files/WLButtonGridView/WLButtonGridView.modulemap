@@ -1,0 +1,6 @@
+framework module WLButtonGridView {
+  umbrella header "WLButtonGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}

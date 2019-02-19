@@ -1,0 +1,31 @@
+{
+  "name": "WLButtonGridView",
+  "version": "0.1.0",
+  "summary": "A short description of WLButtonGridView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nomeqc/WLButtonGridView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nomeqc": "xie5405@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Nomeqc/WLButtonGridView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WLButtonGridView/Classes/**/*",
+  "public_header_files": "WLButtonGridView/Classes/**/*.h",
+  "dependencies": {
+    "YYCategories": [
+
+    ],
+    "SDWebImage": [
+      "~> 4.0"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WLButtonGridView_Example {
+  umbrella header "Pods-WLButtonGridView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

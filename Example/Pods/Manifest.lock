@@ -1,0 +1,31 @@
+PODS:
+  - SDWebImage (4.4.4):
+    - SDWebImage/Core (= 4.4.4)
+  - SDWebImage/Core (4.4.4)
+  - WLButtonGridView (0.1.0):
+    - SDWebImage (~> 4.0)
+    - YYCategories
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - WLButtonGridView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - YYCategories
+
+EXTERNAL SOURCES:
+  WLButtonGridView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
+  WLButtonGridView: a82091c03e269bc18c4983846f0c03f003dad6d3
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 55ed5136412a1e0c8303adfd96b4f22b56594cc0
+
+COCOAPODS: 1.5.3

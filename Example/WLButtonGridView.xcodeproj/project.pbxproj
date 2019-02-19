@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0E774DE461DADD6B4CB459EF /* Pods-WLButtonGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLButtonGridView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLButtonGridView_Example/Pods-WLButtonGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3F6415BACA437D60C7A7B5F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F6415BACA437D60C7A7B5F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		479CC8D01E89CC8F7EFE3188 /* Pods-WLButtonGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLButtonGridView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLButtonGridView_Tests/Pods-WLButtonGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51ADBD10C5313C4B3762B1BF /* Pods-WLButtonGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLButtonGridView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLButtonGridView_Example/Pods-WLButtonGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		53D5D2E006984ABB28F7CDDC /* Pods_WLButtonGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLButtonGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +64,9 @@
 		710DAA93E8464545C5EF05F1 /* Pods_WLButtonGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLButtonGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9719D14A527260B65D217B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9719D14A527260B65D217B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D4C853B7872B0D564CE0D00B /* Pods-WLButtonGridView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLButtonGridView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLButtonGridView_Tests/Pods-WLButtonGridView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E13EC41957FAF344E0566BE9 /* WLButtonGridView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLButtonGridView.podspec; path = ../WLButtonGridView.podspec; sourceTree = "<group>"; };
+		E13EC41957FAF344E0566BE9 /* WLButtonGridView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLButtonGridView.podspec; path = ../WLButtonGridView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Nomeqc;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PMP72N64FV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -303,13 +306,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WLButtonGridView_Example/Pods-WLButtonGridView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/WLButtonGridView/WLButtonGridView.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WLButtonGridView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,6 +504,7 @@
 			baseConfigurationReference = 51ADBD10C5313C4B3762B1BF /* Pods-WLButtonGridView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLButtonGridView/WLButtonGridView-Prefix.pch";
 				INFOPLIST_FILE = "WLButtonGridView/WLButtonGridView-Info.plist";
@@ -512,6 +520,7 @@
 			baseConfigurationReference = 0E774DE461DADD6B4CB459EF /* Pods-WLButtonGridView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLButtonGridView/WLButtonGridView-Prefix.pch";
 				INFOPLIST_FILE = "WLButtonGridView/WLButtonGridView-Info.plist";
