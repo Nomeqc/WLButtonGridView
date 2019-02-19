@@ -14,7 +14,9 @@
 
 @end
 
-@implementation WLViewController
+@implementation WLViewController {
+    WLButtonGridView *_gridView;
+}
 
 - (void)viewDidLoad
 {
@@ -92,6 +94,11 @@
     });
 
     [self.view addSubview:gridView];
+    _gridView = gridView;
+}
+
+- (IBAction)didTapAddButton:(UIButton *)sender {
+    _gridView.width -= 10;
 }
 
 

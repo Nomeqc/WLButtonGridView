@@ -10,7 +10,7 @@ PODS:
   - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
-  - WLButtonGridView (from `../`)
+  - WLButtonGridView (from `/Users/fallrainy/Home/LocalPods/WLButtonGridView`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -19,13 +19,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   WLButtonGridView:
-    :path: "../"
+    :path: "/Users/fallrainy/Home/LocalPods/WLButtonGridView"
 
 SPEC CHECKSUMS:
   SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
-  WLButtonGridView: a82091c03e269bc18c4983846f0c03f003dad6d3
+  WLButtonGridView: 8500a832745f540d0fd0fa9d551a35e4beccd819
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 55ed5136412a1e0c8303adfd96b4f22b56594cc0
+PODFILE CHECKSUM: 6ab9126e2fec436e33b89c4204500eb672219a69
 
 COCOAPODS: 1.5.3

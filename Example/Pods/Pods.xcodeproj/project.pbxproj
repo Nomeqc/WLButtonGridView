@@ -111,7 +111,7 @@
 		B62AD26AF2DD884B998FD04E0AA5DD0D /* UIColor+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AC2234705A53B30FE737047409FD7C /* UIColor+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76F5A0F02862F5773A9A5DA282DDC35 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B00EE4CE29412F5445B6366F17710F /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B4A34F21091B0AAD618DEA08C18FF6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6126EB9EC0C84FE525A0602DD804A6 /* CoreImage.framework */; };
-		BA23F5FDD3D3FC8288D296325B861709 /* WLButtonGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3642664CAA47B6FFD63B5D9DF7913F /* WLButtonGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA23F5FDD3D3FC8288D296325B861709 /* WLButtonGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4D7216B0A5CB7B921D455A227BA9F8 /* WLButtonGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB4500FADE883206E8437E89F59EC042 /* Pods-WLButtonGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B2EA36F37EF7FEF61555558E4AD8F /* Pods-WLButtonGridView_Example-dummy.m */; };
 		C189DBEDB3F44857D4339981728D4780 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF92659F5F9A80177126F1BA6BEA1D7 /* ImageIO.framework */; };
 		C23A8B97998CFF3EEC7791596BC25ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72835506FC79EFFBABCE4F151AD94E0B /* Foundation.framework */; };
@@ -124,10 +124,10 @@
 		C95E22FB10CB1F145DE8A248AC1395ED /* NSThread+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BC198A550920AEDD0214E8BE59FE6BC6 /* NSThread+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C97568843315E396C3A968256EA48681 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 305216E7F5604E9F173DA6D1632A7926 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAB09CC29ACEE4858311FE61515CAD27 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C30ED2351433BC85F4DD1D6744E144 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD19373749826ACDFCB93CA594657EA6 /* WLButtonGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266C15703DE61E73B21F0BADC9C05521 /* WLButtonGridView.m */; };
+		CD19373749826ACDFCB93CA594657EA6 /* WLButtonGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DF5F3E8B91BB35ED9D9881E22EF228 /* WLButtonGridView.m */; };
 		CE41987A6FAB58CD896E47BC49B90992 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C496C7E79513EFE1A15AFBF30609ADC /* SDWebImageCodersManager.m */; };
 		CEF2E911DEEE55A2C217ACBC60D6D2C9 /* Pods-WLButtonGridView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E209E17F87A1F566AED324603B40C44 /* Pods-WLButtonGridView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D08C8B7B11CA3BF21DBD7AF9E8381F29 /* WLButtonGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1596E8B33D45771F8B5107FA4533F7B9 /* WLButtonGridView-dummy.m */; };
+		D08C8B7B11CA3BF21DBD7AF9E8381F29 /* WLButtonGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A231F11655BB04548FB24888CCCC48 /* WLButtonGridView-dummy.m */; };
 		D12921AF8AF990040D5A89A9E564CBC9 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA02C23AD6B9E7B1E5247E6861FDC30 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D5ADE41C5152239E47FFB6A6AFF704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64A668AB7B2841E7D69A63B3B0B0E8 /* UIKit.framework */; };
 		D6BA32F017F08562EAFB8A821432A404 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C395AB2F2CFAB4BB804E0CED3B5662 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -141,7 +141,7 @@
 		E1AA27DB8F53E1DC206826909E4A1D9A /* CALayer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9815DC454DA2F93FED0499D2B21CBE91 /* CALayer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6BA3152D6DE0EB5D11439B324F449B1 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D41159C60CC918F52B7ED0F2A545F7E0 /* UIDevice+YYAdd.m */; };
 		E9DC37FB9DCC24D59174EFC9BF1D2D33 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF4A2ED7B6F246DD8C89484D02CC8C /* NSTimer+YYAdd.m */; };
-		E9F6BFBF58C4450B919B9BB6A7B47E8E /* WLButtonGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DC1637680624F691AB5FE7689C52BE /* WLButtonGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F6BFBF58C4450B919B9BB6A7B47E8E /* WLButtonGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B45BDD4DFE53734FC6CAD1B9C21B8D3E /* WLButtonGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2917FC70E27AC84F898D549AEFFE29C /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFB09EB48E7CADF5D9E9AF9E793E92F /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F44858789F9FAFAA4E49CF780F44032A /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E01B9625F32D10FBD78704E80F05AB /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7AD863C3BAB9D8B7E0799725A6B1B1F /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B67FBAE0DA650906C6781952EA8976 /* NSDictionary+YYAdd.m */; };
@@ -217,8 +217,8 @@
 		12EE7EFB67551EE716E891ED2F806C10 /* YYCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCategories-dummy.m"; sourceTree = "<group>"; };
 		135A9BB789D59DA28F95A99A52FD1199 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		1412CAF32D10182941AF86B72CBF49D8 /* YYCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCGUtilities.h; path = YYCategories/Quartz/YYCGUtilities.h; sourceTree = "<group>"; };
-		1596E8B33D45771F8B5107FA4533F7B9 /* WLButtonGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLButtonGridView-dummy.m"; sourceTree = "<group>"; };
 		188B85434972F4F87C0F36E42795F394 /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
+		18BCF4C508C40D6E1B3FE808322972DE /* WLButtonGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLButtonGridView.xcconfig; sourceTree = "<group>"; };
 		1977A4492217A33820A843B2BB49C199 /* UIBarButtonItem+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+YYAdd.m"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.m"; sourceTree = "<group>"; };
 		19AA3D707151FF89E5414BBAF69D3635 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YYAdd.h"; path = "YYCategories/UIKit/UIDevice+YYAdd.h"; sourceTree = "<group>"; };
 		1A06E07C434392FDF889D93E47550D12 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
@@ -232,7 +232,6 @@
 		24037822C8852D5C61093AE7FD6EAAA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		243CA503B3FDF4E58FF6A86FB9568AA6 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		266C15703DE61E73B21F0BADC9C05521 /* WLButtonGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLButtonGridView.m; path = WLButtonGridView/Classes/WLButtonGridView.m; sourceTree = "<group>"; };
 		277EEDB13458CA548D18FD30A3A01F08 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
 		27B93487CAAE7E9BAEA5E25E5B6538E1 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		281369DCC993703FE4425607BC68D892 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
@@ -289,7 +288,9 @@
 		62F1D803E45497D1603BB27DC51BE646 /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YYAdd.h"; path = "YYCategories/UIKit/UIApplication+YYAdd.h"; sourceTree = "<group>"; };
 		63A0D0BDB64FEA7826628473A64013CB /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		63AFF3B18B7E8561EE2BFC5D9E65DBC0 /* YYCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCategories.xcconfig; sourceTree = "<group>"; };
+		66A231F11655BB04548FB24888CCCC48 /* WLButtonGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLButtonGridView-dummy.m"; sourceTree = "<group>"; };
 		6709359A5ADF3887DF002645A688303D /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		6896997E4B69F2AAC8DDBF0CF804E535 /* WLButtonGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLButtonGridView-prefix.pch"; sourceTree = "<group>"; };
 		69807C79713819FD85E66BFD80016F00 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5CD8262FAC03DC4993D8B5CEBF113C /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
 		6F1DE7B9BF45D5568A07852EA67D082D /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYCategories/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
@@ -302,49 +303,49 @@
 		77640AA91DEBFE12B21AFCE8A88EAA5C /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "YYCategories/Foundation/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		800FF01A2D97C1356298A3180928E813 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		80B00FC7F6E710074561C85D62DBB1CA /* CALayer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYAdd.m"; path = "YYCategories/Quartz/CALayer+YYAdd.m"; sourceTree = "<group>"; };
-		8657F01DC7727776DBEB96A1DDEA3052 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		838D3BFB156E28E91D716418910440A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		885C581C9D449504B2857002257E23D2 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		8C64A668AB7B2841E7D69A63B3B0B0E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		90408D6D8C19AA906143E0DFB560E095 /* Pods-WLButtonGridView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLButtonGridView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9049F0DC65ACDC656E5D1142143C02C7 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		919DAF094D8101BD6D2433DC1DB0A684 /* UITextField+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YYAdd.h"; path = "YYCategories/UIKit/UITextField+YYAdd.h"; sourceTree = "<group>"; };
 		927A2A7A6A9064522C8DE74D002F639D /* YYCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategories.h; path = YYCategories/YYCategories.h; sourceTree = "<group>"; };
-		92D5ACD90DC6A57CB578D52092FCAF49 /* WLButtonGridView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLButtonGridView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93975B8276946D12079048E07DA4D82E /* Pods-WLButtonGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLButtonGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9815DC454DA2F93FED0499D2B21CBE91 /* CALayer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYAdd.h"; path = "YYCategories/Quartz/CALayer+YYAdd.h"; sourceTree = "<group>"; };
 		982F8490E794E80D7CC8ED90E1FFA256 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		99277176808C41F0EB4ADE0450296D87 /* Pods-WLButtonGridView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLButtonGridView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		99531E680D9812FEB1456268F36EE98A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999708D8FE6A37E02367A901566F44A7 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		9A4D7216B0A5CB7B921D455A227BA9F8 /* WLButtonGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLButtonGridView.h; path = WLButtonGridView/Classes/WLButtonGridView.h; sourceTree = "<group>"; };
 		9B891651E832216F4F0DEE018E183443 /* Pods-WLButtonGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLButtonGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BCC5467FF7A88D85BEF91416773285D /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		9C7B6E16036FCF7CA3CB1154280C856F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		9D8933536AF2C590EB5988E9038416B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9DC49CDACE05265E9A6F998BC3F14DA7 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		9DCC99C0034EAEC3B341A61DEEAC6A84 /* NSKeyedUnarchiver+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSKeyedUnarchiver+YYAdd.h"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.h"; sourceTree = "<group>"; };
 		A07EE126AC275B995AE9F9BFCC7D478F /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		A08258FB9642E418D80F1ABCE1888455 /* Pods-WLButtonGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLButtonGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A0CAB3523333817F253D42299EB94014 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		A665394FDB3AF194A5C40D39A7E49E8E /* UIView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYAdd.h"; path = "YYCategories/UIKit/UIView+YYAdd.h"; sourceTree = "<group>"; };
+		A9DF5F3E8B91BB35ED9D9881E22EF228 /* WLButtonGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLButtonGridView.m; path = WLButtonGridView/Classes/WLButtonGridView.m; sourceTree = "<group>"; };
 		AA752BE85CFE4B226FBA797C0C1A1789 /* NSString+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYAdd.m"; path = "YYCategories/Foundation/NSString+YYAdd.m"; sourceTree = "<group>"; };
 		ABE7B9605B36245133211F1D28562448 /* UIView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYAdd.m"; path = "YYCategories/UIKit/UIView+YYAdd.m"; sourceTree = "<group>"; };
 		AF10A65DAFB9A71BFD920FB55B928DDC /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		B0B2B1D87FBF93EFB8D5F9C497054E16 /* Pods-WLButtonGridView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLButtonGridView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B261C6E38CE92E397FCABEFF360C7621 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		B45BDD4DFE53734FC6CAD1B9C21B8D3E /* WLButtonGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLButtonGridView-umbrella.h"; sourceTree = "<group>"; };
 		B6F607C5C49A2DE999A02B73FA53B624 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		B79909C0685820F4D42B26FE9368E367 /* UIScreen+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+YYAdd.m"; path = "YYCategories/UIKit/UIScreen+YYAdd.m"; sourceTree = "<group>"; };
 		B84502189FD1983C6225B7B87DFEA43B /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYCategories/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
-		BB03E43F8B2F5E84D8BADE12EC5CE327 /* WLButtonGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLButtonGridView.modulemap; sourceTree = "<group>"; };
 		BC198A550920AEDD0214E8BE59FE6BC6 /* NSThread+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+YYAdd.h"; path = "YYCategories/Foundation/NSThread+YYAdd.h"; sourceTree = "<group>"; };
 		BCDDA77B0639D31EE3EAF0E87021B3CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		BE0F3B368CD7C839F678DDE60FA5FC2D /* Pods-WLButtonGridView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLButtonGridView_Tests.modulemap"; sourceTree = "<group>"; };
-		BE192FD158B3D50A0A3E5F65898BC7B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C09041B6CDACBED3539FBF34CF6A0A8A /* WLButtonGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLButtonGridView.xcconfig; sourceTree = "<group>"; };
 		C182967876AE3248FF7F7C0E100E99A4 /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYCategories/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
 		C66E88145B16DC096D4E05A030EFA9C4 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAdd.h"; path = "YYCategories/Foundation/NSObject+YYAdd.h"; sourceTree = "<group>"; };
 		C793ABE57B41168B13AA4DB5393FDA23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C8AF4AD447DED1C5992407302D043BE2 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+YYAdd.h"; path = "YYCategories/Foundation/NSNumber+YYAdd.h"; sourceTree = "<group>"; };
 		C8C395AB2F2CFAB4BB804E0CED3B5662 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		CB9327585046A33CB310E1739396F900 /* UIBezierPath+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+YYAdd.h"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.h"; sourceTree = "<group>"; };
-		CBF829A5DB5335982940C876E3536249 /* WLButtonGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLButtonGridView-prefix.pch"; sourceTree = "<group>"; };
 		CCF2BBDFF7034B364C220C8C6EFD46B5 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
 		CD06C3435BD7F8D560E4509D8F88B2D9 /* Pods_WLButtonGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLButtonGridView_Example.framework; path = "Pods-WLButtonGridView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB99A6AC8B12CB0290AA9DB6DB60F45 /* UIBezierPath+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+YYAdd.m"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.m"; sourceTree = "<group>"; };
@@ -357,22 +358,21 @@
 		D41159C60CC918F52B7ED0F2A545F7E0 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "YYCategories/UIKit/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
 		D7958B42005589F6E51EF6AC457A8F91 /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = YYCategories/Quartz/YYCGUtilities.m; sourceTree = "<group>"; };
 		D7B778A39E01CBFCEE1BC70B01AAD517 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		DB3642664CAA47B6FFD63B5D9DF7913F /* WLButtonGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLButtonGridView.h; path = WLButtonGridView/Classes/WLButtonGridView.h; sourceTree = "<group>"; };
+		D847D25630E6DC781B0C5D3F5D21CD3E /* WLButtonGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLButtonGridView.modulemap; sourceTree = "<group>"; };
 		DCE5AF31F3B7B65159224C90EEEBABE5 /* UIBarButtonItem+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+YYAdd.h"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.h"; sourceTree = "<group>"; };
 		DCF29945CE55382589D0F6F543223CC2 /* UIScrollView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+YYAdd.h"; path = "YYCategories/UIKit/UIScrollView+YYAdd.h"; sourceTree = "<group>"; };
 		DD0EC44DE4F782EAFBB5739894AE90B5 /* UITextField+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YYAdd.m"; path = "YYCategories/UIKit/UITextField+YYAdd.m"; sourceTree = "<group>"; };
 		E10C7D8A9B752994E1DF1957C3077D4F /* Pods-WLButtonGridView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLButtonGridView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E172290A56C57861E5A07654D35FA6E0 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYCategories/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
-		E2DC1637680624F691AB5FE7689C52BE /* WLButtonGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLButtonGridView-umbrella.h"; sourceTree = "<group>"; };
 		E5FD3BDE07892682611227D5179D57FD /* NSDate+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YYAdd.m"; path = "YYCategories/Foundation/NSDate+YYAdd.m"; sourceTree = "<group>"; };
 		EA42C2CAE7E4D4AA96DD8979FAE3C68D /* UIScrollView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+YYAdd.m"; path = "YYCategories/UIKit/UIScrollView+YYAdd.m"; sourceTree = "<group>"; };
 		EFF609E98670B6F03C2097616EB3037B /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		F19B92148AE54A2968707CD6CA4F8F9E /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYCategories/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		F243CD16BA7D8E82C347A85DCD42469B /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "YYCategories/Foundation/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		F32CADB067E4FAC46FBD1343974A0AB8 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
-		F3E5F243C8A0E311D6F6158F826C658A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F983CE663D779F269F61F21B6FCB4686 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategoriesMacro.h; path = YYCategories/YYCategoriesMacro.h; sourceTree = "<group>"; };
 		FA6147B5AD20F8BD1EB68A044BDCAEBB /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		FA83E885589BCFFAE5470B2CA4EFD51C /* WLButtonGridView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLButtonGridView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE7DA1C9AE3CEDC552F0D692809BE7AA /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		FEB353A9C67506362DA18CB3F239745F /* NSBundle+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+YYAdd.m"; path = "YYCategories/Foundation/NSBundle+YYAdd.m"; sourceTree = "<group>"; };
 		FFD6FB9F07185877A615DEA4F970F99B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -434,18 +434,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0089E9B7AAB273030CDE1E199F0BC117 /* WLButtonGridView */ = {
-			isa = PBXGroup;
-			children = (
-				DB3642664CAA47B6FFD63B5D9DF7913F /* WLButtonGridView.h */,
-				266C15703DE61E73B21F0BADC9C05521 /* WLButtonGridView.m */,
-				D59CC11C07277490C61A5EF1AB0A50F6 /* Pod */,
-				FA3FC47ECC1C39F035B63E0CF181DB19 /* Support Files */,
-			);
-			name = WLButtonGridView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0842213FBF72E70F736DEB297823B73D /* Pods-WLButtonGridView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +474,18 @@
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
+		};
+		1BE555F88645DEEF67DE559B253CBFBE /* WLButtonGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D7216B0A5CB7B921D455A227BA9F8 /* WLButtonGridView.h */,
+				A9DF5F3E8B91BB35ED9D9881E22EF228 /* WLButtonGridView.m */,
+				F14E285F7D31E5550DEA11F65CA2DBE9 /* Pod */,
+				4D218D9FB49CE523B07E6C4E6D7DD7F1 /* Support Files */,
+			);
+			name = WLButtonGridView;
+			path = /Users/fallrainy/Home/LocalPods/WLButtonGridView;
+			sourceTree = "<absolute>";
 		};
 		1E7F42D7AD291039A200B66CC15C95A5 /* YYCategories */ = {
 			isa = PBXGroup;
@@ -600,12 +600,18 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		664B50495B312FE79100300B453666BC /* Development Pods */ = {
+		4D218D9FB49CE523B07E6C4E6D7DD7F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0089E9B7AAB273030CDE1E199F0BC117 /* WLButtonGridView */,
+				99531E680D9812FEB1456268F36EE98A /* Info.plist */,
+				D847D25630E6DC781B0C5D3F5D21CD3E /* WLButtonGridView.modulemap */,
+				18BCF4C508C40D6E1B3FE808322972DE /* WLButtonGridView.xcconfig */,
+				66A231F11655BB04548FB24888CCCC48 /* WLButtonGridView-dummy.m */,
+				6896997E4B69F2AAC8DDBF0CF804E535 /* WLButtonGridView-prefix.pch */,
+				B45BDD4DFE53734FC6CAD1B9C21B8D3E /* WLButtonGridView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLButtonGridView";
 			sourceTree = "<group>";
 		};
 		75B8D9019CFFABD47F09F819CE8DFCE9 /* Core */ = {
@@ -709,6 +715,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B745308BC0BD5945E796C830009477A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BE555F88645DEEF67DE559B253CBFBE /* WLButtonGridView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BEC6C2B7730B3B518C2C0B0B69B92702 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -729,7 +743,7 @@
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				664B50495B312FE79100300B453666BC /* Development Pods */,
+				B745308BC0BD5945E796C830009477A7 /* Development Pods */,
 				4294022186E08894CE3C05F4B902CF07 /* Frameworks */,
 				8D68DE53C4A91918E97D73000F6653E8 /* Pods */,
 				AAB19B153DBD5082886FC9382098313D /* Products */,
@@ -737,28 +751,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		D59CC11C07277490C61A5EF1AB0A50F6 /* Pod */ = {
+		F14E285F7D31E5550DEA11F65CA2DBE9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8657F01DC7727776DBEB96A1DDEA3052 /* LICENSE */,
-				BE192FD158B3D50A0A3E5F65898BC7B4 /* README.md */,
-				92D5ACD90DC6A57CB578D52092FCAF49 /* WLButtonGridView.podspec */,
+				838D3BFB156E28E91D716418910440A0 /* LICENSE */,
+				9D8933536AF2C590EB5988E9038416B1 /* README.md */,
+				FA83E885589BCFFAE5470B2CA4EFD51C /* WLButtonGridView.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		FA3FC47ECC1C39F035B63E0CF181DB19 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3E5F243C8A0E311D6F6158F826C658A /* Info.plist */,
-				BB03E43F8B2F5E84D8BADE12EC5CE327 /* WLButtonGridView.modulemap */,
-				C09041B6CDACBED3539FBF34CF6A0A8A /* WLButtonGridView.xcconfig */,
-				1596E8B33D45771F8B5107FA4533F7B9 /* WLButtonGridView-dummy.m */,
-				CBF829A5DB5335982940C876E3536249 /* WLButtonGridView-prefix.pch */,
-				E2DC1637680624F691AB5FE7689C52BE /* WLButtonGridView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WLButtonGridView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1175,7 +1175,7 @@
 /* Begin XCBuildConfiguration section */
 		5B1631E012A8F576CE6C9CC2817AE9BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C09041B6CDACBED3539FBF34CF6A0A8A /* WLButtonGridView.xcconfig */;
+			baseConfigurationReference = 18BCF4C508C40D6E1B3FE808322972DE /* WLButtonGridView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1530,7 +1530,7 @@
 		};
 		D67F300ED0546CD9B45A0F9BA03C0ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C09041B6CDACBED3539FBF34CF6A0A8A /* WLButtonGridView.xcconfig */;
+			baseConfigurationReference = 18BCF4C508C40D6E1B3FE808322972DE /* WLButtonGridView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

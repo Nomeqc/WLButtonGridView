@@ -6,7 +6,8 @@ target 'WLButtonGridView_Example' do
     
 #  pod 'YYCategories'
 #  pod 'SDWebImage', '~> 4.0'
-  pod 'WLButtonGridView', :path => '../'
+pod 'WLButtonGridView', :path => '/Users/fallrainy/Home/LocalPods/WLButtonGridView'
+#  pod 'WLButtonGridView', :git => 'https://github.com/Nomeqc/WLButtonGridView'
 
   target 'WLButtonGridView_Tests' do
     inherit! :search_paths

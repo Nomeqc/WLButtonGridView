@@ -197,29 +197,18 @@ static NSString *const kGridCellId = @"gridCell";
 }
 
 // MARK: @Override
-- (void)setFrame:(CGRect)frame {
-    if (!CGSizeEqualToSize(frame.size, self.bounds.size)) {
-        [self.collectionView reloadData];
-    }
-    [super setFrame:frame];
-}
 
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.collectionView.frame = CGRectMake(0, 0, self.width, self.height);
     
-    CGFloat cellHeight = _cellHeight;
     [self.horizontalLines enumerateObjectsUsingBlock:^(UIView *line, NSUInteger idx, BOOL * _Nonnull stop) {
-        line.size = CGSizeMake(self.collectionView.width, CGFloatFromPixel(1));
-        line.left = 0;
-        line.top = idx * cellHeight;
+        line.frame = CGRectMake(0, idx * _cellHeight, CGRectGetWidth(self.collectionView.frame), 1/[UIScreen mainScreen].scale);
         [self.collectionView bringSubviewToFront:line];
     }];
     
     [self.verticalLines enumerateObjectsUsingBlock:^(UIView *line, NSUInteger idx, BOOL * _Nonnull stop) {
-        line.size = CGSizeMake(CGFloatFromPixel(1), self.collectionView.height);
-        line.top = 0;
-        line.left = idx * (self.collectionView.width / self.config.numberOfColumn);
+        line.frame = CGRectMake(idx *([UIScreen mainScreen].bounds.size.width/_config.numberOfColumn), 0, 1/[UIScreen mainScreen].scale, CGRectGetHeight(self.collectionView.frame));
         [self.collectionView bringSubviewToFront:line];
     }];
 }
